@@ -17,3 +17,5 @@ The classic algorithm is rather straightforward:
   We use no more than 4 threads here as IO from both HDD and SSD do not allow higher order of parallelization.
 * We pre-allocated enough memory for containers where possible and use resize(), instead of creating new containers
 * To run tests ```make test```
+
+Algorithm implementation is in ```sort_performer.cpp```
