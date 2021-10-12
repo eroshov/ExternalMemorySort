@@ -18,4 +18,4 @@ The classic algorithm is rather straightforward:
 * We pre-allocated enough memory for containers where possible and use resize(), instead of creating new containers
 * To run tests ```make test```
 
-Algorithm implementation is in ```sort_performer.cpp```
+Algorithm implementation is in ```src/sort_performer.cpp```
